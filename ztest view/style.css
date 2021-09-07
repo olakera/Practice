@@ -1,0 +1,127 @@
+:root {
+    --primary: #dee2e6;
+    --black: #151515;
+    --white: #ffffff;
+    --header: #006678;
+  }
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+
+}
+h3{
+
+}
+h4{
+
+}
+h5{
+
+}
+h6{
+
+}
+p{
+
+}
+a{
+    text-decoration: none;
+    color: var(--header)
+}
+.container{
+    width: 68%;
+    margin: 0 auto;
+}
+body{
+    font-size: 15px;
+    color: var(--black);
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+ /* Header and top part */
+.hero-container{
+    overflow: hidden;
+    background-color: var(--primary);
+    color: var(--black);
+    position: relative;
+    height: 60vh;
+    min-height: 400px;
+    font-weight: 400;
+    letter-spacing: .1em;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3.5em 0;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+
+}
+.logo img{
+    width: 50px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+}
+header ul li{
+    display: block;
+    margin-left: 4em;
+    transition: all ease-in .1s;
+}
+header ul li:hover{
+    transform: scale(1.1);
+}
+
+nav a:hover{
+    color: #253E4A;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.hero h1{
+    margin-top: 3em;
+}
+.hero img{
+    width: 300px;
+    margin-right: 50px;
+}
+
+/* table */
+.table{
+    margin: 9em auto;
+    width: 100%;
+    overflow: auto;
+}
+table{
+    width: 100%;
+    min-width: 400px;
+    border-collapse: collapse;
+    text-align:center;
+}
+table,tr,td,th{
+    border:1px solid #DCDCDC;
+}
+table thead{
+    background-color: var(--header);
+    color: #fff;
+}
+th,td{
+    padding: 2em 0;
+}
+footer{
+    background-color: var(--primary);
+    padding: 3em 0;
+}
